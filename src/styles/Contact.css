@@ -1,0 +1,18 @@
+#contact {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+#title-row{
+    font-size: 5vh;
+    font-weight: 100;
+    margin-bottom: 5vh;
+}
+#main-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}

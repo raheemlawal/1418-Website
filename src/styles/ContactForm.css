@@ -1,0 +1,10 @@
+label{
+    color:black;
+}
+#submitbutton-row{
+    display: flex;
+    justify-content: center;
+}
+#submit-button{
+    width: 30vw;
+}

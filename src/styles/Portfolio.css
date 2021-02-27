@@ -1,0 +1,20 @@
+#portfolio {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    display:flex;
+    flex-direction:column;
+}
+#main-container{
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.comingsoon-text{
+    font-style: italic;
+    font-weight: 100;
+    font-size: calc(5vw + 8px);
+    margin-bottom: 30vh;
+}
