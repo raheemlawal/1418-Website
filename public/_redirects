@@ -1,3 +1,3 @@
-/           /Main.js        301
-/contact    /index.html     302
-/portfolio  /portfolio      303
+/           /                     301
+/contact    ../src/Main           302
+/portfolio  ../src/Main.js        303
