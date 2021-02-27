@@ -1,21 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Main from './Main'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import { Switch, Route } from 'react-router-dom';
-
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Switch > {/* The Switch decides which component to show based on the current URL.*/}
-      <Route exact path='/' component={Home}></Route>
-      <Route exact path='/portfolio' component={Portfolio}></Route>
-      <Route exact path='/contact' component={Contact}></Route>
-    </Switch>
+    <Main />
   </BrowserRouter>,
   document.getElementById('root')
 );
