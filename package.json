@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "peaceful-shaw-d2c938.netlify.app",
+  "homepage": "https://peaceful-shaw-d2c938.netlify.app",
   "eslintConfig": {
     "extends": [
       "react-app",
