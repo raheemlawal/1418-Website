@@ -1,12 +1,13 @@
 import '../styles/NavigationBar.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Nav,Navbar,Button} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 function NavigationBar() {
     return (
         <Navbar className = "navigation-bar" variant="dark">
                 <Nav className="ml-auto">
-                    <Button variant="outline-success" id = "home-link" href="/">Home</Button>
+                    <Button as = {Link} variant="outline-success" id = "home-link" to="/">Home</Button>
                 </Nav>
         </Navbar>
     );

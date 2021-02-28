@@ -1,7 +1,8 @@
 import '../styles/Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Row,Col,Container,Button} from 'react-bootstrap';
-import '../Main'
+import '../Main';
+import {Link} from 'react-router-dom';
 
 function Home() {
 
@@ -36,10 +37,10 @@ function Home() {
           </Col>
         </Row>
         <Row id = "portfolio-row">
-            <Button href = "/portfolio" id = "portfolio-button" variant="outline-warning"> Portfolio</Button>
+            <Button as = {Link} to = "/portfolio" id = "portfolio-button" variant="outline-warning"> Portfolio</Button>
         </Row>
         <Row id = "contact-row">
-          <Button href = "/contact" id = "contact-button" variant="outline-danger" > Contact Us</Button>
+          <Button as = {Link} to = "/contact" id = "contact-button" variant="outline-danger" > Contact Us</Button>
         </Row>
     </Container>
   );
