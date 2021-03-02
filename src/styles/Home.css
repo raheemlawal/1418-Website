@@ -51,6 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -2vh;
     
 }
 #contact-button{
@@ -60,7 +61,7 @@
     font-size: calc(0.8vw + 5px);
     background-color: black;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,8 +75,9 @@
     100% {border-right: none;}
 }
   @keyframes animated-text{
+
     from{width: 0;}
-    to{width: calc(30vw + 70px)}
+    to{width: calc(100%)}
   }
   @keyframes animated-cursor{
     from { border-color: rgba(0,255,0,.75);}
