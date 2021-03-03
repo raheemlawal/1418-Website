@@ -5,7 +5,6 @@ import '../Main';
 import {Link} from 'react-router-dom';
 
 function Home() {
-
   return (
     <Container id="home">
         <Row id = "maintitle-row">
