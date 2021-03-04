@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Card,Col,Row,Form,Button} from 'react-bootstrap';
 import emailjs from 'emailjs-com';
 import React, {useState} from 'react'
+import {Link} from 'react-router-dom';
 import{ init } from 'emailjs-com';
 
 require('dotenv').config()
@@ -10,29 +11,33 @@ init(process.env.REACT_APP_USER_ID);
 
 function ContactForm() {
 
-    const [name, setName] = useState("");
+    const [nameco, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
     const [service, setService] = useState("");
     const [description, setDescription] = useState("");
 
+
+
     const handleSubmit = (e) => {
-        e.preventDefault();
 
         const frmdetails = {
-            'name' : name,
+            'name' : nameco,
             'email' : email,
             'phone' : phone,
             'service' : service,
             'description': description
         }
 
+        
           emailjs.send(
             process.env.REACT_APP_SERVICE_ID,
             process.env.REACT_APP_TEMPLATE_ID,
             frmdetails,
             process.env.REACT_APP_USER_ID
         )
+        
+
     }
     return (
         <Card id = "main-card" style = {{ width: "80vw"}}>
@@ -93,7 +98,13 @@ function ContactForm() {
         </Card.Body>
         <Card.Footer className="text-muted">
           <Col id = "submitbutton-row" sm={{ span: 12}}>
-            <Button variant="success" id="submit-button" as="input" type="button" value="Submit" onClick={handleSubmit} />{' '}
+            <Button 
+                as = {Link} 
+                to = {{ pathname: '/submission', state:nameco}} 
+                id = "submit-button" 
+                variant="none" 
+                onClick={handleSubmit} 
+            >Submit</Button>
           </Col>
         </Card.Footer>
       </Card>

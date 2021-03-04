@@ -7,4 +7,6 @@ label{
 }
 #submit-button{
     width: 30vw;
+    color: white;
+    background-color: #5cb85c;
 }

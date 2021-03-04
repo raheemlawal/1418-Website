@@ -39,7 +39,7 @@ function Home() {
             <Button as = {Link} to = "/portfolio" id = "portfolio-button" variant="outline-warning"> Portfolio</Button>
         </Row>
         <Row id = "contact-row">
-          <Button as = {Link} to = "/contact" id = "contact-button" variant="outline-danger" > Contact Us</Button>
+          <Button as = {Link} to = "/contact" id = "contact-button" variant="outline-danger"> Contact Us</Button>
         </Row>
     </Container>
   );

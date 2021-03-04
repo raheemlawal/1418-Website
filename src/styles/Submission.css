@@ -1,0 +1,50 @@
+#submission {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    display:flex;
+    flex-direction:column;
+}
+#main-container{
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.thankyou-text{
+    font-weight: 100;
+    font-size: calc(3vw + 8px);
+    text-align:  center;
+}
+.intouch-text{
+    font-weight: 100;
+    font-size: calc(2vw + 8px);
+    color:  #5cb85c;
+    margin-bottom: 10vh;
+}
+#newenquiry-button{
+    width: calc(20vw + 20px);
+    height: calc(5vh + 10px);
+    font-weight: 500;
+    font-size: calc(0.8vw + 5px);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+}
+#gohome-button{
+    margin-top: 5vh;
+    width: calc(20vw + 20px);
+    height: calc(5vh + 10px);
+    font-weight: 500;
+    font-size: calc(0.8vw + 5px);
+    background-color: black;
+    display: table-cell;
+    vertical-align: middle; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+}
