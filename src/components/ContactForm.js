@@ -48,7 +48,7 @@ function ContactForm() {
                         Name/Company :
                     </Form.Label >
                     <Col sm="10">
-                        <Form.Control onChange={e => setName(e.target.value)} placeholder="Raheem Lawal" />
+                        <Form.Control onChange={e => setName(e.target.value)} placeholder="John Doe" />
                     </Col>
                 </Form.Group>
                 <Form.Group as={Row} controlId="formPlaintextEmail">
