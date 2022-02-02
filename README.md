@@ -1,10 +1,6 @@
 # 1418 Company Website
 
-<<<<<<< HEAD
 ![Alt text](a.gif)
-=======
-![Alt text](a.gif) / ![](a.gif)
->>>>>>> 944104f6f60c2bf603ba07e1ea194ae857923cc7
 
 1418 Technologies offers the following services :
 
