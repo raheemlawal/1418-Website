@@ -79,7 +79,7 @@ function ContactForm() {
                             <option>Rapid IT Help</option>
                             <option>Video Conferencing Configuration</option>
                             <option>Web Development</option>
-                            <option>Computer Speed Enhancement</option>
+                            <option>Blockchain Consulting</option>
                             <option>Enterprise Tech Design</option>
                             <option>Personal Device & Software Setup</option>
                             <option>Other</option>

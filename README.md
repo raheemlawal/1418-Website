@@ -7,7 +7,7 @@
   - Rapid IT Help
   - Video Conferencing Configuration
   - Web Development
-  - Computer Speed Improvement
+  - Blockchain Consulting
   - Enterprise Tech Design
   - Personal Device & Software Setup
 

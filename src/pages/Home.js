@@ -26,7 +26,7 @@ function Home() {
         </Row>
         <Row id = "services-row-two">
           <Col>
-            Computer Speed Improvement
+            Blockchain Consulting
           </Col>
           <Col>
             Enterprise Tech Design
