@@ -11,7 +11,7 @@
 .maintitle-text{
     font-size: calc(15vw + 40px);
     color:green;
-    font-weight: 100;
+    font-weight: 300;
     display: inline-block;
     line-height: 1em;
     margin-top: 8vh;
@@ -26,7 +26,7 @@
 .subtitle-text{
     font-size: calc(2vw + 8px);
     color:green;
-    font-weight: 300;
+    font-weight: 200;
     animation: fadeIn ease 5s;
 }
 #services-row-one, #services-row-two{

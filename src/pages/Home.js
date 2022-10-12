@@ -15,13 +15,13 @@ function Home() {
         </Row>
         <Row id = "services-row-one">
           <Col>
+            Web Development
+          </Col>
+          <Col>
             Rapid IT Help
           </Col>
           <Col>
             Video Conferencing Configuration
-          </Col>
-          <Col>
-            Web Development
           </Col>
         </Row>
         <Row id = "services-row-two">
