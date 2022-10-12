@@ -1,6 +1,6 @@
 import '../styles/Portfolio.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container, Card, Row, Col, Image} from 'react-bootstrap';
+import {Container, Row, Col, Image} from 'react-bootstrap';
 import thanks from '../thankspic.png';
 import landlorde from '../lanlordepic.png';
 import heem from '../heempic.png';
