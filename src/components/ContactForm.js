@@ -43,7 +43,7 @@ function ContactForm() {
         <Card id = "main-card" style = {{ width: "80vw"}}>
         <Card.Body>
             <Form id ="main-form">
-                <Form.Group as={Row} controlId="formPlaintextName">
+                <Form.Group as={Row} controlId="formPlaintextName" className = "mb-3">
                     <Form.Label column sm="2">
                         Name/Company :
                     </Form.Label >
@@ -51,7 +51,7 @@ function ContactForm() {
                         <Form.Control onChange={e => setName(e.target.value)} placeholder="John Doe" />
                     </Col>
                 </Form.Group>
-                <Form.Group as={Row} controlId="formPlaintextEmail">
+                <Form.Group as={Row} controlId="formPlaintextEmail" className = "mb-3">
                     <Form.Label column sm="2">
                         Email :
                     </Form.Label>
@@ -59,7 +59,7 @@ function ContactForm() {
                         <Form.Control onChange={e => setEmail(e.target.value)} placeholder="abc@email.com" />
                     </Col>
                 </Form.Group>
-                <Form.Group as={Row} controlId="formPlaintextPhone">
+                <Form.Group as={Row} controlId="formPlaintextPhone" className = "mb-3">
                     <Form.Label column sm="2">
                         Phone :
                     </Form.Label>
@@ -67,7 +67,7 @@ function ContactForm() {
                         <Form.Control onChange={e => setPhone(e.target.value)} placeholder="678-999-8212" />
                     </Col>
                 </Form.Group>
-                <Form.Group as={Row} controlId="formPlaintextService">
+                <Form.Group as={Row} controlId="formPlaintextService" className = "mb-3">
                     <Form.Label column sm="2">
                         Service :
                     </Form.Label>
@@ -86,7 +86,7 @@ function ContactForm() {
                         </Form.Control>
                     </Col>
                 </Form.Group>
-                <Form.Group as={Row} controlId="formPlaintextDescription">
+                <Form.Group as={Row} controlId="formPlaintextDescription" className = "mb-3">
                     <Form.Label column sm="2">
                         Description :
                     </Form.Label>

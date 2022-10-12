@@ -44,7 +44,7 @@
   }
 #portfolio-button{
     width: calc(20vw + 20px);
-    height: calc(5vh + 10px);
+    height: calc(4vh + 10px);
     font-weight: 500;
     font-size: calc(0.8vw + 5px);
     background-color: black;
@@ -55,7 +55,7 @@
 }
 #contact-button{
     width: calc(20vw + 20px);
-    height: calc(5vh + 10px);
+    height: calc(4vh + 10px);
     font-weight: 500;
     font-size: calc(0.8vw + 5px);
     background-color: black;

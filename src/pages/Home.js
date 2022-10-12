@@ -8,7 +8,7 @@ function Home() {
   return (
     <Container id="home">
         <Row id = "maintitle-row">
-            <h1 className = "maintitle-text">1418</h1>
+            <h2 className = "maintitle-text">1418</h2>
         </Row>
         <Row id = "subtitle-row">
             <h3 className = "subtitle-text">Technologies</h3>
