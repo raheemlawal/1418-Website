@@ -15,7 +15,7 @@ function NewHome() {
             <h3 className = "subtitle-text">Technologies</h3>
         </Row>
         <Row id = "d-row">
-            <h3 className = "d-text">Providing modern technology services, consulting, and research.</h3>
+            <h3 className = "d-text">Providing modern technology services: development, consulting, and research.</h3>
         </Row>
         <Row id = "d2-row">
             <h3 className = "d2-text">[ Web Development, Blockchain, IT, Device Setup, Video Conferencing Configuration, Entreprise Design ]</h3>
