@@ -1,0 +1,99 @@
+#home {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+.maintitle-text{
+    font-size: calc(15vw + 40px);
+    color:green;
+    font-weight: 300;
+    display: inline-block;
+    line-height: 1em;
+    margin-top: 8vh;
+    border-right: solid 3px rgba(0,255,0,0);
+    white-space: nowrap;
+    overflow: hidden;    
+    animation: 
+        animated-text 1s steps(6,end) 1s 1 normal both, 
+        animated-cursor 500ms steps(20,start) 8,
+        fadeOut ;  
+}
+.subtitle-text{
+    font-size: calc(2vw + 8px);
+    color:green;
+    font-weight: 200;
+    animation: fadeIn ease 5s;
+}
+.d-text{
+    font-size: calc(1vw + 6px);
+    color:green;
+    font-weight: 200;
+    animation: fadeIn ease 5s;
+    margin-top: 3vh;
+}
+.d2-text{
+    font-size: calc(1vw + 2px);
+    color:white;
+    font-weight: 400;
+    animation: fadeIn ease 5s;
+    margin-top: 3vh;
+}
+#services-row-one, #services-row-two{
+    font-size: calc(.8vw + 7px);
+    text-align: center;
+    margin-top: 7vh;
+}
+#portfolio-row{
+    margin-top: calc(15vh + 7px);
+}
+#contact-row{
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+  }
+#portfolio-button{
+    width: calc(20vw + 20px);
+    height: calc(4vh + 10px);
+    font-weight: 500;
+    font-size: calc(0.8vw + 5px);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2vh;
+    border-radius: 0;
+}
+#contact-button{
+    width: calc(20vw + 20px);
+    height: calc(4vh + 10px);
+    font-weight: 500;
+    font-size: calc(0.8vw + 5px);
+    background-color: black;
+    display: table-cell;
+    vertical-align: middle; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes fadeOut{
+    0% {border-right: 100%};
+    100% {border-right: none;}
+}
+  @keyframes animated-text{
+
+    from{width: 0;}
+    to{width: calc(100%)}
+  }
+  @keyframes animated-cursor{
+    from { border-color: rgba(0,255,0,.75);}
+    to {border-color: transparent}
+  }

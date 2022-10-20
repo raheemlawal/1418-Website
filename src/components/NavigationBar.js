@@ -2,6 +2,7 @@ import '../styles/NavigationBar.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Nav,Navbar,Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import React from 'react';
 
 function NavigationBar() {
     return (

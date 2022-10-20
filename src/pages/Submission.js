@@ -2,6 +2,7 @@ import '../styles/Submission.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container,Button} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
+import React from 'react';
 
 function Submission(props) {
     

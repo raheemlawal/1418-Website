@@ -2,6 +2,7 @@ import '../styles/Contact.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row} from 'react-bootstrap';
 import ContactForm from '../components/ContactForm'
+import React from 'react';
 
 function Contact() {
 

@@ -10,3 +10,9 @@ label{
     color: white;
     background-color: #5cb85c;
 }
+#main-card{
+    border-radius: 0;
+}
+#submit-button{
+    border-radius: 0;
+}
