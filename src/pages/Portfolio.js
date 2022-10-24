@@ -31,11 +31,6 @@ function Portfolio() {
                             <Image rounded src={landlorde} height={300}></Image>
                         </a>
                     </Col>
-                    <Col>
-                        <a target="_blank" href="https://raheemlawal.com" rel="noopener noreferrer">
-                            <Image rounded src={raheem} height={300}></Image>
-                        </a>
-                    </Col>
                 </Row>
             </Container>
         </Container>
