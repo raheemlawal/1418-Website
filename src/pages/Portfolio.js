@@ -4,7 +4,6 @@ import {Container, Row, Col, Image} from 'react-bootstrap';
 import thanks from '../thankspic.png';
 import landlorde from '../lanlordepic.png';
 import heem from '../heempic.png';
-import raheem from '../raheempic.png';
 import React from 'react';
 
 function Portfolio() {
