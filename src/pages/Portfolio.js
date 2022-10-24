@@ -14,8 +14,8 @@ function Portfolio() {
                 <h1 className='portfolio-text'>Portfolio</h1>
                 <Row id = "portrow">
                     <Col>
-                        <a target="_blank" href="https://heemtoken.com" rel="noopener noreferrer">
-                            <Image rounded src={heem} height={300}></Image>
+                        <a target="_blank" href="https://landlorde.dev" rel="noopener noreferrer">
+                            <Image rounded src={landlorde} height={300}></Image>
                         </a>
                     </Col>
                     <Col>
@@ -26,8 +26,8 @@ function Portfolio() {
                 </Row>
                 <Row id = "portrow2">
                     <Col>
-                        <a target="_blank" href="https://landlorde.dev" rel="noopener noreferrer">
-                            <Image rounded src={landlorde} height={300}></Image>
+                        <a target="_blank" href="https://heemtoken.com" rel="noopener noreferrer">
+                            <Image rounded src={heem} height={300}></Image>
                         </a>
                     </Col>
                 </Row>
