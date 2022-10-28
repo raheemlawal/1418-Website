@@ -18,7 +18,7 @@ function NewHome() {
             <h3 className = "d-text">Providing modern technology services: development, consulting, and research.</h3>
         </Row>
         <Row id = "d2-row">
-            <h3 className = "d2-text">[ Web Development, Blockchain, IT, Device Setup, Video Conferencing Configuration, Entreprise Design ]</h3>
+            <h3 className = "d2-text">[ Web Development, Blockchain, IT, Device Setup, Video Conferencing Configuration, Enterprise Design ]</h3>
         </Row>
         <Row id = "portfolio-row">
             <Button as = {Link} to = "/portfolio" id = "portfolio-button" variant="outline-warning"> PORTFOLIO</Button>
