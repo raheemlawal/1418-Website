@@ -12,7 +12,7 @@ function Submission(props) {
     return (
         <Container id="submission">
             <Container id = "main-container">
-                <h1 className = "thankyou-text">Thank you for submitting an enquiry {nameco} !</h1>
+                <h1 className = "thankyou-text">Thank you for submitting an inquiry {nameco} !</h1>
                 <h3 className = "intouch-text">We will be in touch shortly!</h3>
                 <Button as = {Link} to = "/contact" id = "newenquiry-button" variant="primary"> Create New Enquiry</Button>
                 <Button as = {Link} to = "/" id = "gohome-button" variant="primary"> Go Back Home</Button>
