@@ -76,12 +76,9 @@ function ContactForm() {
                             onChange={e => setService(e.target.value)}
                         >
                             <option hidden value="">Select</option>
-                            <option>Rapid IT Help</option>
-                            <option>Video Conferencing Configuration</option>
-                            <option>Web Development</option>
-                            <option>Blockchain Consulting</option>
-                            <option>Enterprise Tech Design</option>
-                            <option>Personal Device & Software Setup</option>
+                            <option>Web Design</option>
+                            <option>Data Analytics</option>
+                            <option>Blockchain Development</option>
                             <option>Other</option>
                         </Form.Control>
                     </Col>
