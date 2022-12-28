@@ -4,12 +4,9 @@
 
 1418 Technologies offers the following services :
 
-  - Rapid IT Help
-  - Video Conferencing Configuration
-  - Web Development
-  - Blockchain Consulting
-  - Enterprise Tech Design
-  - Personal Device & Software Setup
+  - Web Design
+  - Data Analytics
+  - Blockchain Development
 
 ## Deployment
 
