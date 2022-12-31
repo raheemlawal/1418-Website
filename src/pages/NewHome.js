@@ -1,18 +1,16 @@
 import '../styles/NewHome.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Row,Container,Button} from 'react-bootstrap';
+import {Row,Container,Button,Image} from 'react-bootstrap';
 import '../Main';
 import {Link} from 'react-router-dom';
 import React from 'react';
+import abz from "../aaa.PNG"
 
 function NewHome() {
   return (
     <Container id="home">
         <Row id = "maintitle-row">
-            <h2 className = "maintitle-text">1418</h2>
-        </Row>
-        <Row id = "subtitle-row">
-            <h3 className = "subtitle-text">Technologies</h3>
+          <Image src={abz}></Image>
         </Row>
         <Row id = "d-row">
             <h3 className = "d-text">Providing modern technology services: development, consulting, and research.</h3>

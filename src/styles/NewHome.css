@@ -43,6 +43,9 @@
     animation: fadeIn ease 5s;
     margin-top: 3vh;
 }
+#maintitle-row{
+    margin-top: 10vh;
+}
 #services-row-one, #services-row-two{
     font-size: calc(.8vw + 7px);
     text-align: center;
