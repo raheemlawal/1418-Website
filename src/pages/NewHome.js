@@ -5,6 +5,7 @@ import '../Main';
 import {Link} from 'react-router-dom';
 import React from 'react';
 import abz from "../aaa.PNG"
+import { FaInstagram } from "react-icons/fa";
 
 function NewHome() {
   return (
@@ -23,6 +24,11 @@ function NewHome() {
         </Row>
         <Row id = "contact-row">
           <Button as = {Link} to = "/contact" id = "contact-button" variant="outline-danger"> CONTACT US</Button>
+        </Row>
+        <Row id = "ig-row">
+          <a id='ig-color' href="https://instagram.com/1418tech/">
+            <FaInstagram size={30}></FaInstagram>
+          </a>
         </Row>
     </Container>
   );
